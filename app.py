@@ -1,9 +1,9 @@
 import streamlit as st
-from transformers import ViTForImageClassification, ViTFeatureExtractor
-import torch
-from torchvision import transforms
-from PIL import Image
-import numpy as np
+# from transformers import ViTForImageClassification, ViTFeatureExtractor
+# import torch
+# from torchvision import transforms
+# from PIL import Image
+# import numpy as np
 
 # Load pre-trained model and feature extractor
 model = ViTForImageClassification.from_pretrained("google/vit-base-patch16-224")
